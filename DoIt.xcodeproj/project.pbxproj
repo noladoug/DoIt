@@ -13,6 +13,7 @@
 		F943A6A81E75EA68006F5285 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F943A6A61E75EA68006F5285 /* DoIt.xcdatamodeld */; };
 		F943A6AA1E75EA68006F5285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F943A6A91E75EA68006F5285 /* Assets.xcassets */; };
 		F943A6AD1E75EA68006F5285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F943A6AB1E75EA68006F5285 /* LaunchScreen.storyboard */; };
+		F943A6B71E75FBF3006F5285 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F943A6B61E75FBF3006F5285 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F943A6A91E75EA68006F5285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F943A6AC1E75EA68006F5285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F943A6AE1E75EA68006F5285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F943A6B61E75FBF3006F5285 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				F943A69F1E75EA68006F5285 /* AppDelegate.swift */,
 				F943A6A11E75EA68006F5285 /* ViewController.swift */,
+				F943A6B61E75FBF3006F5285 /* Task.swift */,
 				F943A6A31E75EA68006F5285 /* Main.storyboard */,
 				F943A6A91E75EA68006F5285 /* Assets.xcassets */,
 				F943A6AB1E75EA68006F5285 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F943A6B71E75FBF3006F5285 /* Task.swift in Sources */,
 				F943A6A81E75EA68006F5285 /* DoIt.xcdatamodeld in Sources */,
 				F943A6A21E75EA68006F5285 /* ViewController.swift in Sources */,
 				F943A6A01E75EA68006F5285 /* AppDelegate.swift in Sources */,
@@ -305,6 +309,7 @@
 				F943A6B31E75EA68006F5285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
